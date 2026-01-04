@@ -10,13 +10,13 @@ VIDEO_SYNC_GROUP=1     # values in [4, 8, 16] The number of process that accepts
 MODEL_NAME=pyramid_flux     # The model name, `pyramid_flux` or `pyramid_mmdit`
 MODEL_PATH=/content/drive/MyDrive/PATH/pyramid-flow-miniflux  # The downloaded ckpt dir. IMPORTANT: It should match with model_name, flux or mmdit (sd3)
 VARIANT=diffusion_transformer_384p  # The DiT Variant
-OUTPUT_DIR=/content/drive/MyDrive/DiT_Checkpoint    # The checkpoint saving dir
+OUTPUT_DIR=/content/drive/MyDrive/new_dit_checkpoint   # The checkpoint saving dir
 
 BATCH_SIZE=4    # It should satisfy batch_size % 4 == 0
 GRAD_ACCU_STEPS=2
 RESOLUTION="384p"     # 384p or 768p
 NUM_FRAMES=16       # e.g., 16 for 5s, 32 for 10s
-ANNO_FILE=/content/video_generation_from_scratch/annotation/test_video_anno.jsonl   # The video annotation file path
+ANNO_FILE=/content/vg_finetune_2/annotation/white_board_annotation/cleaned_video_anno.jsonl   # The video annotation file path
 
 # For the 768p version, make sure to add the args:  --gradient_checkpointing
 

@@ -2,7 +2,7 @@
 
 1. clone the reop 
 ```
-    git clone https://github.com/ProgramerSalar/video_generation_from_scratch.git
+    git clone https://github.com/ProgramerSalar/vg_finetune_2.git
 ```
 
 2. go to the `dir` and install the req file 
