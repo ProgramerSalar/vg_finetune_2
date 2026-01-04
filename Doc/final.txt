@@ -1,0 +1,49 @@
+***** Running training *****
+LR = 0.00005000
+Min LR = 0.00001000
+Weigth Decay = 0.00010000
+Batch size = 8
+Number of training steps = 40000
+Number of training examples per epoch = 16000
+Checkpoint does not exist. Starting a new training run.
+Start training epoch 0, 2000 iters per inner epoch. Training dtype bf16
+Epoch: [0]  [   0/2000]  eta: 1:36:43  lr: 0.000001  min_lr: 0.000001  loss: 0.1246 (0.1246)  weight_decay: 0.0001 (0.0001)  grad_norm: 3.1762 (3.1762)  time: 2.9018  data: 0.0000  max mem: 32407
+Epoch: [0]  [  40/2000]  eta: 1:02:13  lr: 0.000003  min_lr: 0.000003  loss: 0.0258 (0.0521)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.2772 (1.1748)  time: 1.8569  data: 0.0000  max mem: 36218
+Epoch: [0]  [  80/2000]  eta: 1:00:13  lr: 0.000005  min_lr: 0.000005  loss: 0.0234 (0.0408)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0568 (0.6403)  time: 1.8476  data: 0.0000  max mem: 36226
+Epoch: [0]  [ 120/2000]  eta: 0:58:37  lr: 0.000007  min_lr: 0.000007  loss: 0.0195 (0.0355)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0407 (0.4449)  time: 1.8474  data: 0.0000  max mem: 36226
+Epoch: [0]  [ 160/2000]  eta: 0:57:16  lr: 0.000009  min_lr: 0.000009  loss: 0.0251 (0.0321)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0385 (0.3447)  time: 1.8532  data: 0.0000  max mem: 36226
+Epoch: [0]  [ 200/2000]  eta: 0:55:53  lr: 0.000011  min_lr: 0.000011  loss: 0.0271 (0.0309)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0404 (0.2851)  time: 1.8344  data: 0.0000  max mem: 36226
+Epoch: [0]  [ 240/2000]  eta: 0:54:38  lr: 0.000013  min_lr: 0.000013  loss: 0.0197 (0.0295)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0403 (0.2460)  time: 1.8481  data: 0.0000  max mem: 36226
+Epoch: [0]  [ 280/2000]  eta: 0:53:23  lr: 0.000015  min_lr: 0.000015  loss: 0.0211 (0.0287)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0480 (0.2202)  time: 1.8553  data: 0.0000  max mem: 36226
+Epoch: [0]  [ 320/2000]  eta: 0:52:06  lr: 0.000017  min_lr: 0.000017  loss: 0.0186 (0.0282)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0354 (0.1982)  time: 1.8591  data: 0.0000  max mem: 36228
+Epoch: [0]  [ 360/2000]  eta: 0:50:50  lr: 0.000019  min_lr: 0.000019  loss: 0.0172 (0.0273)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0366 (0.1810)  time: 1.8402  data: 0.0000  max mem: 36228
+Epoch: [0]  [ 400/2000]  eta: 0:49:35  lr: 0.000021  min_lr: 0.000021  loss: 0.0209 (0.0271)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0410 (0.1683)  time: 1.8389  data: 0.0000  max mem: 36228
+Epoch: [0]  [ 440/2000]  eta: 0:48:30  lr: 0.000023  min_lr: 0.000023  loss: 0.0196 (0.0268)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0373 (0.1581)  time: 1.8501  data: 0.0000  max mem: 36228
+Epoch: [0]  [1440/2000]  eta: 0:17:22  lr: 0.000050  min_lr: 0.000050  loss: 0.0172 (0.0245)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0430 (0.0883)  time: 1.8179  data: 0.0000  max mem: 36228
+Epoch: [0]  [1480/2000]  eta: 0:16:07  lr: 0.000050  min_lr: 0.000050  loss: 0.0242 (0.0244)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0446 (0.0871)  time: 1.8247  data: 0.0000  max mem: 36228
+Epoch: [0]  [1520/2000]  eta: 0:14:53  lr: 0.000050  min_lr: 0.000050  loss: 0.0226 (0.0244)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0433 (0.0862)  time: 1.8497  data: 0.0000  max mem: 36228
+Epoch: [0]  [1560/2000]  eta: 0:13:38  lr: 0.000050  min_lr: 0.000050  loss: 0.0214 (0.0244)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0434 (0.0852)  time: 1.8469  data: 0.0000  max mem: 36228
+Epoch: [0]  [1600/2000]  eta: 0:12:24  lr: 0.000050  min_lr: 0.000050  loss: 0.0184 (0.0244)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0398 (0.0844)  time: 1.8543  data: 0.0000  max mem: 36228
+Epoch: [0]  [1640/2000]  eta: 0:11:09  lr: 0.000050  min_lr: 0.000050  loss: 0.0169 (0.0244)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0436 (0.0835)  time: 1.8472  data: 0.0000  max mem: 36228
+Epoch: [0]  [1680/2000]  eta: 0:09:55  lr: 0.000050  min_lr: 0.000050  loss: 0.0213 (0.0243)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0398 (0.0826)  time: 1.8798  data: 0.0000  max mem: 36228
+Epoch: [0]  [1720/2000]  eta: 0:08:41  lr: 0.000050  min_lr: 0.000050  loss: 0.0196 (0.0243)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0490 (0.0819)  time: 1.8480  data: 0.0000  max mem: 36228
+Epoch: [0]  [1760/2000]  eta: 0:07:26  lr: 0.000050  min_lr: 0.000050  loss: 0.0175 (0.0243)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0387 (0.0813)  time: 1.8667  data: 0.0000  max mem: 36228
+Epoch: [0]  [1800/2000]  eta: 0:06:12  lr: 0.000050  min_lr: 0.000050  loss: 0.0238 (0.0243)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0448 (0.0807)  time: 1.8540  data: 0.0000  max mem: 36228
+Epoch: [0]  [1840/2000]  eta: 0:04:57  lr: 0.000050  min_lr: 0.000050  loss: 0.0207 (0.0243)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0427 (0.0801)  time: 1.8361  data: 0.0000  max mem: 36228
+Epoch: [0]  [1880/2000]  eta: 0:03:43  lr: 0.000050  min_lr: 0.000050  loss: 0.0153 (0.0243)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0385 (0.0795)  time: 1.8371  data: 0.0000  max mem: 36228
+Epoch: [0]  [1920/2000]  eta: 0:02:28  lr: 0.000050  min_lr: 0.000050  loss: 0.0163 (0.0242)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0382 (0.0787)  time: 1.8161  data: 0.0000  max mem: 36228
+Epoch: [0]  [1960/2000]  eta: 0:01:14  lr: 0.000050  min_lr: 0.000050  loss: 0.0243 (0.0241)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0386 (0.0780)  time: 1.8403  data: 0.0000  max mem: 36228
+Epoch: [0]  [1999/2000]  eta: 0:00:01  lr: 0.000050  min_lr: 0.000050  loss: 0.0200 (0.0241)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0578 (0.0774)  time: 1.8188  data: 0.0000  max mem: 36228
+Epoch: [0] Total time: 1:02:01 (1.8609 s / it)
+Averaged stats: lr: 0.000050  min_lr: 0.000050  loss: 0.0200 (0.0241)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0578 (0.0774)
+Start training epoch 1, 2000 iters per inner epoch. Training dtype bf16
+Epoch: [1]  [   0/2000]  eta: 1:14:27  lr: 0.000050  min_lr: 0.000050  loss: 0.0086 (0.0086)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0305 (0.0305)  time: 2.2339  data: 0.0000  max mem: 36228
+Epoch: [1]  [  40/2000]  eta: 1:03:14  lr: 0.000050  min_lr: 0.000050  loss: 0.0186 (0.0237)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0416 (0.0448)  time: 1.9171  data: 0.0000  max mem: 36228
+Epoch: [1]  [  80/2000]  eta: 1:01:59  lr: 0.000050  min_lr: 0.000050  loss: 0.0249 (0.0239)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0405 (0.0461)  time: 1.8694  data: 0.0000  max mem: 36228
+Epoch: [1]  [ 120/2000]  eta: 0:59:51  lr: 0.000050  min_lr: 0.000050  loss: 0.0175 (0.0236)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0344 (0.0452)  time: 1.8260  data: 0.0000  max mem: 36228
+Epoch: [1]  [ 160/2000]  eta: 0:58:11  lr: 0.000050  min_lr: 0.000050  loss: 0.0193 (0.0229)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0391 (0.0442)  time: 1.8437  data: 0.0000  max mem: 36228
+Epoch: [1]  [ 200/2000]  eta: 0:56:40  lr: 0.000050  min_lr: 0.000050  loss: 0.0198 (0.0227)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0395 (0.0446)  time: 1.8409  data: 0.0000  max mem: 36228
+Epoch: [1]  [ 240/2000]  eta: 0:55:14  lr: 0.000050  min_lr: 0.000050  loss: 0.0177 (0.0223)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0385 (0.0446)  time: 1.8418  data: 0.0000  max mem: 36228
+Epoch: [1]  [ 280/2000]  eta: 0:53:50  lr: 0.000050  min_lr: 0.000050  loss: 0.0199 (0.0223)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0432 (0.0471)  time: 1.8386  data: 0.0000  max mem: 36228
+Epoch: [1]  [ 320/2000]  eta: 0:52:31  lr: 0.000050  min_lr: 0.000050  loss: 0.0207 (0.0222)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0370 (0.0463)  time: 1.8550  data: 0.0000  max mem: 36228
+Epoch: [1]  [ 360/2000]  eta: 0:51:12  lr: 0.000050  min_lr: 0.000050  loss: 0.0195 (0.0222)  weight_decay: 0.0001 (0.0001)  grad_norm: 0.0392 (0.0460)  time: 1.8377  data: 0.0000  max mem: 36228
